@@ -50,16 +50,16 @@
       How many guests will you be bringing?
      (text) *Write their name here*
 
-- [ ](textarea, optional)
+- [X](textarea, optional)
       ALSO, use this space to write down your questions, comments, suggestions, deepest darkest secrets… and poems (my FAVOURUITE PART!!!). Making me laugh and bribery get extra votes…
 
-- [ ](range, optional)
+- [X](range, optional)
       How excited are you for the festivities?
 ===
 
-- [ ]Choose 2 of the fields and design the error states for them
+- [X]Choose 2 of the fields and design the error states for them
 
-- [ ]Validate the from using the W3 validator and TotalValidator
+- [ ]Validate the form using the W3 validator and TotalValidator
 
 - [ ]Test your form with VoiceOver to make sure its compatible
 
