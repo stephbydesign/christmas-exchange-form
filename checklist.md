@@ -1,12 +1,12 @@
 # Checklist
-===
+---
 
 
 - [X](text, required) Name
       I saw ____ kissing Santa Claus
 
 
----
+===
 
 ##I'LL BE HOME FOR CHRISTMAS… AKA: CONTACT
 
@@ -26,13 +26,13 @@
 
 
 
----
+===
 ## Chestnuts Roasting on an Open Fire…
 
 - [X](select, required)
       And other yummy stuff. Rank your preference for food.
 
----
+===
 
 ## The 12 Days of Christmas…
 
@@ -42,7 +42,7 @@
 - [X](group of 5 radio buttons)
       The 12 Days of Christmas…
 
----
+===
 
 
 
@@ -63,13 +63,16 @@
 
 - [ ]Test your form with VoiceOver to make sure its compatible
 
-
+===
 
 ## Building requirements
-  Create a new repository on GitHub named *book-club-form* set it up for hosting and put your files into it.
 
-xmas-xchange-form/
+[X]  Create a new repository on GitHub named *book-club-form* set it up for hosting and put your files into it.
+
+
+[X]  xmas-xchange-form/
   css/
     general.css
   img/
   index.html
+
