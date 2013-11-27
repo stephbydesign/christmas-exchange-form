@@ -34,6 +34,10 @@ dd {
   margin-right: 10px;
 }
 
+.range {
+  display: inline;
+}
+
 .unit-container {
   background-color:rgba(255,255,255,0.75);
   padding: 0.5em;
@@ -66,6 +70,7 @@ input {
 
 input + label {
   display: inline;
+  margin-bottom: 5px;
 }
 
 .main-img {
@@ -109,5 +114,5 @@ button {
 }
 
 .input-error {
-  border: 3px solid red;
+  border: 2px solid red;
 }

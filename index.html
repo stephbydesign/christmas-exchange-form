@@ -19,20 +19,22 @@
       <div class="unit-spacer">
         <h3>I saw _______ kissing Santa Claus.</h3>
         <label for="name"> Name
-        <input type="text" id="name" class="input-text" required>
+        <strong class="error input-error">Don't be a Grinch, write your name!</strong>
+        <input type="text" id="name" class="input-text" placeholder="Tell Santa CAH" required>
         </label>
       </div>
 
       <div class="unit-spacer">
         <label for="guest">How many guests will you be bringing?</label>
         <input type="number" id="guest" min="0" max="5" pattern="[0-9]*">
-        <div class="unit-spacer">
+        <div>
           <label for="name">What's their name?</label>
           <input type="text" class="input-text">
         </div>
       </div>
 
-      <fieldset class="list-group">
+      <fieldset class="unit-spacer" required>
+        <strong class="error input-error">Are you coming, or not? </strong>
         <legend>
           <h3>Oh come all ye faithful…</h3>
           <p>Are you interested in attending this year's holiday get-together?</p>
@@ -58,39 +60,40 @@
         <div>
           <h3>I'll be Home for Christmas…</h3>
         </div>
-      <div class="unit-spacer">
-        <label for="travel">Pick your travel dates, so we know when folks are around!</label>
-        <input type="date" id="travel">
-      </div>
+        <div>
+          <label for="travel">Pick your travel dates, so we know when folks are around!</label>
+          <input type="date" id="travel">
+        </div>
 
-      <div class="unit-spacer">
+      <div>
         <label for="phone">Phone Number</label>
         <input type="phone" id="phone" class="input-text" maxlength="14" placeholder="ex: 613-867-5309" required>
       </div>
 
-      <div class="unit-spacer">
+      <div>
         <label for="email">E-mail address</label>
         <input type="email" id="email" class="input-text" maxlength="256" optional>
       </div>
 
-      <div class="unit-spacer">
+      <div>
         <label for="address">Address</label>
         <input type="address" id="address" class="input-text" optional>
       </div>
 
-      <div class="unit-spacer">
+      <div>
         <label for="city">City</label>
         <input type="city" id="city" class="input-text" required>
       </div>
 
-      <div class="unit-spacer">
+      <div>
         <label for="postal-code">Postal Code</label>
         <input type="postal-code" id="postal-code" class="input-text" maxlength="7" placeholder="A2A 3B3" required>
       </div>
+    </div>
 
-      <fieldset class="unit-spacer">
+      <fieldset>
         <legend>
-          <h3>The 12 days of Christmas…</h3>
+        <h3>The 12 days of Christmas…</h3>
         </legend>
         <p>Rate the days that work best for you.</p>
 
@@ -295,13 +298,14 @@
         </dl>
       </fieldset>
 
-      <div class="unit-spacer">
-        <label for="time">What time works best for you?</label>
+      <div>
+        <label for="time">PRESENTS! What time do you want to start the gift exchange?</label>
         <input type="time" id="time" required>
       </div>
+    </div>
 
 
-      <div class="unit-spacer">
+      <div>
         <h3>Chestnuts roasting on an open fire…</h3>
         <div class="unit-spacer">
           <label for="meal">And other yummy stuff. What's your meal style preference?</label>
@@ -314,12 +318,21 @@
         </div>
       </div>
 
-
-
-
-
-
-
+      <div class="">
+        <h3>Let it snow, let it snow, let it snow!</h3>
+          <div class="unit-spacer">
+            <label for="excite">How excited are you for this year's festivities?</label>
+            <div class="range">
+              <p>Meh.
+              <input type="range" id="excite" min="10" max="100" step="10">
+              SANTAAA!</p>
+            </div>
+          </div>
+        <div class="unit-spacer">
+          <label for="extra">Use this space to write down your questions, comments, suggestions, deepest darkest secrets… and poems (my FAVOURITE PART!!!). Making me laugh and bribery get extra votes…</label>
+          <textarea id="extra" class="input-text"></textarea>
+        </div>
+      </div>
 
     </form>
   </div>
