@@ -81,8 +81,8 @@ input + label {
 
 .input-text {
   font-size: 1rem;
-  border: 1px solid #e2e2e2;
-  background-image: linear-gradient(to bottom #e2e2e2, #fff);
+  border: 1px solid #ccc;
+  background-image: linear-gradient(to bottom #ccc, #fff);
   margin-bottom: .5em;
   padding: 0.5em;
   width: 100%;
