@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Christmas Exchange</title>
+
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/general.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/list-group.css" rel="stylesheet">
+</head>
+<body class="main-img">
+
+  <h1 class="unit-container unit-s-3-4 unit-m-3-4 unit-l-3-4">It's beginning to look a lot like Christmas!</h1>
+
+  <div class="unit-container unit-s-3-4 unit-m-3-4 unit-l-3-4">
+    <form>
+
+      <div class="unit-spacer">
+        <h3>I saw _______ kissing Santa Claus.</h3>
+        <label for="name"> Name
+        <input type="text" id="name" class="input-text" required>
+        </label>
+      </div>
+
+      <div class="unit-spacer">
+        <label for="guest">How many guests will you be bringing?</label>
+        <input type="number" id="guest" min="0" max="5" pattern="[0-9]*">
+        <div class="unit-spacer">
+          <label for="name">What's their name?</label>
+          <input type="text" class="input-text">
+        </div>
+      </div>
+
+      <fieldset class="list-group">
+        <legend>
+          <h3>Oh come all ye faithful…</h3>
+          <p>Are you interested in attending this year's holiday get-together?</p>
+        </legend>
+
+        <div class="list-group-item">
+          <input type="radio" id="yes" name="attendance">
+          <label for="yes">Bring on the eggnog! (yes)</label>
+        </div>
+
+        <div class="list-group-item">
+          <input type="radio" id="no" name="attendance">
+          <label for="no">Bah Humbug. (no)</label>
+        </div>
+
+        <div class="list-group-item">
+          <input type="radio" id="maybe" name="attendance">
+          <label for="maybe">I'm afraid of commitment. (maybe)</label>
+        </div>
+      </fieldset>
+
+      <div class="unit-spacer">
+        <div>
+          <h3>I'll be Home for Christmas…</h3>
+        </div>
+      <div class="unit-spacer">
+        <label for="travel">Pick your travel dates, so we know when folks are around!</label>
+        <input type="date" id="travel">
+      </div>
+
+      <div class="unit-spacer">
+        <label for="phone">Phone Number</label>
+        <input type="phone" id="phone" class="input-text" maxlength="14" placeholder="ex: 613-867-5309" required>
+      </div>
+
+      <div class="unit-spacer">
+        <label for="email">E-mail address</label>
+        <input type="email" id="email" class="input-text" maxlength="256" optional>
+      </div>
+
+      <div class="unit-spacer">
+        <label for="address">Address</label>
+        <input type="address" id="address" class="input-text" optional>
+      </div>
+
+      <div class="unit-spacer">
+        <label for="city">City</label>
+        <input type="city" id="city" class="input-text" required>
+      </div>
+
+      <div class="unit-spacer">
+        <label for="postal-code">Postal Code</label>
+        <input type="postal-code" id="postal-code" class="input-text" maxlength="7" placeholder="A2A 3B3" required>
+      </div>
+
+      <fieldset class="unit-spacer">
+        <legend>
+          <h3>The 12 days of Christmas…</h3>
+        </legend>
+        <p>Rate the days that work best for you.</p>
+
+        <dl>
+          <dt>Sunday Dec. 18</dt>
+          <dd>
+            <input type="radio" id="" name="availability">
+            <label for="best" class="avail"> Best day</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="preferred" class="avail"> Preferred day</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="maybe" class="avail"> I could make this work</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="rather-not" class="avail"> Rather not</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="worst" class="avail"> Worst</label>
+          </dd>
+
+          <dt>Monday Dec. 19</dt>
+          <dd>
+            <input type="radio" id="" name="availability">
+            <label for="best" class="avail"> Best day</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="preferred" class="avail"> Preferred day</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="maybe" class="avail"> I could make this work</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="rather-not" class="avail"> Rather not</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="worst" class="avail"> Worst</label>
+          </dd>
+
+          <dt>Tuesday Dec. 20</dt>
+          <dd>
+            <input type="radio" id="" name="availability">
+            <label for="best" class="avail"> Best day</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="preferred" class="avail"> Preferred day</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="maybe" class="avail"> I could make this work</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="rather-not" class="avail"> Rather not</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="worst" class="avail"> Worst</label>
+          </dd>
+
+          <dt>Wednesday Dec. 21</dt>
+          <dd>
+            <input type="radio" id="" name="availability">
+            <label for="best" class="avail"> Best day</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="preferred" class="avail"> Preferred day</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="maybe" class="avail"> I could make this work</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="rather-not" class="avail"> Rather not</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="worst" class="avail"> Worst</label>
+          </dd>
+
+          <dt>Thursday Dec. 22</dt>
+          <dd>
+            <input type="radio" id="" name="availability">
+            <label for="best" class="avail"> Best day</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="preferred" class="avail"> Preferred day</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="maybe" class="avail"> I could make this work</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="rather-not" class="avail"> Rather not</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="worst" class="avail"> Worst</label>
+          </dd>
+
+          <dt>Friday Dec. 23</dt>
+          <dd>
+            <input type="radio" id="" name="availability">
+            <label for="best" class="avail"> Best day</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="preferred" class="avail"> Preferred day</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="maybe" class="avail"> I could make this work</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="rather-not" class="avail"> Rather not</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="worst" class="avail"> Worst</label>
+          </dd>
+
+          <dt>Tuesday Dec. 27</dt>
+          <dd>
+            <input type="radio" id="" name="availability">
+            <label for="best" class="avail"> Best day</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="preferred" class="avail"> Preferred day</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="maybe" class="avail"> I could make this work</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="rather-not" class="avail"> Rather not</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="worst" class="avail"> Worst</label>
+          </dd>
+
+          <dt>Wednesday Dec. 28</dt>
+          <dd>
+            <input type="radio" id="" name="availability">
+            <label for="best" class="avail"> Best day</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="preferred" class="avail"> Preferred day</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="maybe" class="avail"> I could make this work</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="rather-not" class="avail"> Rather not</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="worst" class="avail"> Worst</label>
+          </dd>
+
+          <dt>Thursday Dec. 29</dt>
+          <dd>
+            <input type="radio" id="" name="availability">
+            <label for="best" class="avail"> Best day</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="preferred" class="avail"> Preferred day</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="maybe" class="avail"> I could make this work</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="rather-not" class="avail"> Rather not</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="worst" class="avail"> Worst</label>
+          </dd>
+
+          <dt>Friday Dec. 30</dt>
+          <dd>
+            <input type="radio" id="" name="availability">
+            <label for="best" class="avail"> Best day</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="preferred" class="avail"> Preferred day</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="maybe" class="avail"> I could make this work</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="rather-not" class="avail"> Rather not</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="worst" class="avail"> Worst</label>
+          </dd>
+
+          <dt>Saturday Dec. 31</dt>
+          <dd>
+            <input type="radio" id="" name="availability">
+            <label for="best" class="avail"> Best day</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="preferred" class="avail"> Preferred day</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="maybe" class="avail"> I could make this work</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="rather-not" class="avail"> Rather not</label>
+
+            <input type="radio" id="" name="availability">
+            <label for="worst" class="avail"> Worst</label>
+          </dd>
+        </dl>
+      </fieldset>
+
+      <div class="unit-spacer">
+        <label for="time">What time works best for you?</label>
+        <input type="time" id="time" required>
+      </div>
+
+
+      <div class="unit-spacer">
+        <h3>Chestnuts roasting on an open fire…</h3>
+        <div class="unit-spacer">
+          <label for="meal">And other yummy stuff. What's your meal style preference?</label>
+          <select id="meal" required>
+            <option>---choose---</option>
+            <option>Open-Style Potluck</option>
+            <option>Themed Potluck</option>
+            <option>Order Out</option>
+          </select>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+    </form>
+  </div>
+</body>
+</html>
