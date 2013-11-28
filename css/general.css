@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+}
+
+html {
+  background: url(../img/decor.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 h1 {
   background-color:rgba(255,255,255,0.75);
   padding: 0.5em;
@@ -71,12 +84,6 @@ input {
 input + label {
   display: inline;
   margin-bottom: 5px;
-}
-
-.main-img {
-  background-image:url("../img/decor.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .input-text {
