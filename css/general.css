@@ -44,7 +44,7 @@ dd {
 }
 
 .avail {
-  margin-right: 10px;
+
 }
 
 .range {
@@ -104,13 +104,25 @@ fieldset {
   border: 0;
 }
 
+th {
+  padding: 0 5px;
+}
+
+td {
+  padding: 10px 5px;
+  text-align: center;
+}
+
+.date {
+  text-align: left;
+}
+
 button {
   font-size: 1.125rem;
   padding: .5em;
-  border-radius: 10px;
-  border: 1px solid #00f;
-  background-image: linear-gradient(to bottom #e2e2e2, #fff);
-  color: blue;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom #8d1020, #fff);
+  color: #8d1020;
   font-weight: bold;
   cursor: pointer;
 }
