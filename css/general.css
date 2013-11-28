@@ -106,7 +106,7 @@ fieldset {
 
 button {
   font-size: 1.125rem;
-  padding: 1em;
+  padding: .5em;
   border-radius: 10px;
   border: 1px solid #00f;
   background-image: linear-gradient(to bottom #e2e2e2, #fff);
@@ -122,15 +122,4 @@ button {
 
 .input-error {
   border: 2px solid red;
-}
-
-button {
-  font-size: 1.125rem;
-  padding: 1em;
-  border-radius: 10px;
-  border: 3px solid #00f;
-  background-image: linear-gradient(to bottom, #00f, #33e);
-  color: #fff;
-  font-weight: bold;
-  cursor: pointer;
 }
